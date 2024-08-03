@@ -4,7 +4,7 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 //═══════[Required Variables]════════\\
 global.owner = process.env.OWNER_NUMBER || '94770730717'
-global.mongodb = process.env.MONGODB_URI || "mongodb://u67wtnui9m87lq4yhmvv:tpelVygzO9NWafGwF0D@bmrkwjjqyq2xfesqxn7z-mongodb.services.clever-cloud.com:2052/bmrkwjjqyq2xfesqxn7z"
+global.mongodb = process.env.MONGODB_URI || "mongodb+srv://cyberdexter60:Kave8kT6XQypBgTW@cluster0.uk3r1gb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 global.port= process.env.PORT || 5000
 global.email = 'sam@secktor.live'
 global.github = 'https://github.com/darkewing/DARK-EWING'
